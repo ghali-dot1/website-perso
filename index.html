@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghali El Eulj — Student & Tech Entrepreneur</title>
+    <meta name="description"
+        content="AI & Business student building scalable ventures. Founder of Apex Scholar and MarketFlow. Based in Barcelona.">
+    <meta name="author" content="Ghali El Eulj">
+    <meta name="theme-color" content="#000000">
+    <!-- Open Graph / Social -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Ghali El Eulj — Student & Tech Entrepreneur">
+    <meta property="og:description"
+        content="AI & Business student building scalable ventures. Founder of Apex Scholar and MarketFlow.">
+    <meta property="og:url" content="https://ghalielulj.com">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ghali El Eulj — Student & Tech Entrepreneur">
+    <meta name="twitter:description"
+        content="AI & Business student building scalable ventures. Founder of Apex Scholar and MarketFlow.">
+    <!-- Favicon -->
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='12' fill='%23000'/><text x='50' y='68' font-size='52' font-family='system-ui' font-weight='800' fill='%233b82f6' text-anchor='middle'>G</text></svg>">
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- PAGE LOADER -->
+    <div class="page-loader" id="pageLoader">
+        <div class="loader-content">
+            <div class="loader-logo">GEE<span class="accent">.</span></div>
+            <div class="loader-bar">
+                <div class="loader-bar-fill"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- GRAIN TEXTURE OVERLAY -->
+    <div class="grain-overlay"></div>
+
+    <!-- SCROLL PROGRESS -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- NAV -->
+    <nav class="nav" id="navbar">
+        <div class="nav-inner">
+            <div class="nav-logo">GEE<span class="accent">.</span></div>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#ventures">Ventures</a>
+                <a href="#experience">Experience</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="nav-hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- MOBILE NAV -->
+    <div class="mobile-nav" id="mobileNav">
+        <a href="#about">About</a>
+        <a href="#ventures">Ventures</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <main>
+
+        <!-- ═══ WELCOME / HERO ═══ -->
+        <section class="hero" id="hero">
+            <canvas class="hero-canvas" id="heroCanvas"></canvas>
+            <div class="hero-glow"></div>
+
+            <div class="container hero-split">
+                <div class="hero-left">
+                    <div class="hero-welcome fade-up">
+                        <span class="tag-pill">📍 Based in Barcelona, Spain</span>
+                    </div>
+                    <h1 class="hero-name">Ghali El Eulj</h1>
+                    <p class="hero-tagline fade-up d2">Student & Tech Entrepreneur<span class="typing-cursor"></span>
+                    </p>
+                    <p class="hero-desc fade-up d3">AI & Business double-degree student building scalable ventures at
+                        the
+                        intersection of artificial intelligence, education, and market systems. Founder of two active
+                        startups before 20.</p>
+
+                    <div class="hero-ctas fade-up d4">
+                        <a href="#ventures" class="btn-primary">View Ventures</a>
+                        <a href="mailto:geleulj@gmail.com" class="btn-outline">Get in Touch →</a>
+                    </div>
+                </div>
+
+                <div class="hero-right fade-up d3">
+                    <!-- Orbital Visual -->
+                    <div class="orbit-system">
+                        <div class="orbit-ring orbit-ring-1">
+                            <div class="orbit-dot"></div>
+                        </div>
+                        <div class="orbit-ring orbit-ring-2">
+                            <div class="orbit-dot orbit-dot-2"></div>
+                        </div>
+                        <div class="orbit-ring orbit-ring-3">
+                            <div class="orbit-dot orbit-dot-3"></div>
+                        </div>
+                        <div class="orbit-core">
+                            <span class="orbit-label">GEE</span>
+                        </div>
+                        <!-- Floating labels around orbit -->
+                        <div class="orbit-tag ot-1">AI/ML</div>
+                        <div class="orbit-tag ot-2">EdTech</div>
+                        <div class="orbit-tag ot-3">B2B</div>
+                        <div class="orbit-tag ot-4">SaaS</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="hero-stats fade-up d5">
+                    <div class="stat">
+                        <span class="stat-num" data-count="2">0</span>
+                        <span class="stat-label">Active Startups</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-num">6-fig</span>
+                        <span class="stat-label">Revenue Scaled</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-num" data-count="100">0</span>
+                        <span class="stat-label">Club Members Built</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-num" data-count="4">0</span>
+                        <span class="stat-label">Languages Spoken</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══ TECH STACK MARQUEE ═══ -->
+        <section class="marquee-section">
+            <div class="marquee-track">
+                <span class="marquee-item"><span class="mi-dot"></span>Python</span>
+                <span class="marquee-item"><span class="mi-dot"></span>React</span>
+                <span class="marquee-item"><span class="mi-dot"></span>Next.js</span>
+                <span class="marquee-item"><span class="mi-dot"></span>Node.js</span>
+                <span class="marquee-item"><span class="mi-dot"></span>Supabase</span>
+                <span class="marquee-item"><span class="mi-dot"></span>TypeScript</span>
+                <span class="marquee-item"><span class="mi-dot"></span>TailwindCSS</span>
+                <span class="marquee-item"><span class="mi-dot"></span>Bubble.io</span>
+                <span class="marquee-item"><span class="mi-dot"></span>OpenAI API</span>
+                <span class="marquee-item"><span class="mi-dot"></span>Figma</span>
+                <span class="marquee-item"><span class="mi-dot"></span>Vercel</span>
+                <span class="marquee-item"><span class="mi-dot"></span>Stripe</span>
+                <span class="marquee-item"><span class="mi-dot"></span>Meta Ads</span>
+                <span class="marquee-item"><span class="mi-dot"></span>Google Analytics</span>
+                <!-- Duplicate for seamless loop -->
+                <span class="marquee-item"><span class="mi-dot"></span>Python</span>
+                <span class="marquee-item"><span class="mi-dot"></span>React</span>
+                <span class="marquee-item"><span class="mi-dot"></span>Next.js</span>
+                <span class="marquee-item"><span class="mi-dot"></span>Node.js</span>
+                <span class="marquee-item"><span class="mi-dot"></span>Supabase</span>
+                <span class="marquee-item"><span class="mi-dot"></span>TypeScript</span>
+                <span class="marquee-item"><span class="mi-dot"></span>TailwindCSS</span>
+                <span class="marquee-item"><span class="mi-dot"></span>Bubble.io</span>
+                <span class="marquee-item"><span class="mi-dot"></span>OpenAI API</span>
+                <span class="marquee-item"><span class="mi-dot"></span>Figma</span>
+                <span class="marquee-item"><span class="mi-dot"></span>Vercel</span>
+                <span class="marquee-item"><span class="mi-dot"></span>Stripe</span>
+                <span class="marquee-item"><span class="mi-dot"></span>Meta Ads</span>
+                <span class="marquee-item"><span class="mi-dot"></span>Google Analytics</span>
+            </div>
+        </section>
+
+        <!-- ═══ ABOUT ═══ -->
+        <section id="about">
+            <div class="container">
+                <div class="section-label fade-up"><span class="label-dot"></span> About Me</div>
+                <div class="about-layout">
+                    <div class="about-text fade-up">
+                        <div class="obj-block fade-up d1">
+                            <div class="obj-head">
+                                <span class="obj-title">SYS.OBJ // PRIMARY</span>
+                                <span class="obj-status">ACTIVE</span>
+                            </div>
+                            <div class="obj-body">
+                                Design and deploy robust digital infrastructure. Optimize market mechanics through AI
+                                integration. Scale autonomous systems yielding high leverage.
+                            </div>
+                            <div class="obj-foot">
+                                <span class="obj-bar"></span>
+                                <span class="obj-code">COORD 31°12'N 84°19'W (EXEC)</span>
+                            </div>
+                        </div>
+
+                        <h2>Building at the intersection of AI, education, and market infrastructure.</h2>
+                        <p>I'm a hands-on builder with proven ability to structure projects, analyze markets, and
+                            execute scalable initiatives. I don't just study business — I build businesses. From scaling
+                            e-commerce to six figures, to shipping AI-powered products, my focus is always on structured
+                            execution and long-term leverage.</p>
+                    </div>
+                    <div class="about-details fade-up d1">
+                        <div class="detail-card">
+                            <div class="detail-icon">📍</div>
+                            <div class="detail-info">
+                                <span class="detail-key">Location</span>
+                                <span class="detail-val">Barcelona, Spain</span>
+                            </div>
+                        </div>
+                        <div class="detail-card">
+                            <div class="detail-icon">🎓</div>
+                            <div class="detail-info">
+                                <span class="detail-key">Education</span>
+                                <span class="detail-val">AI & Business — Dual Degree</span>
+                            </div>
+                        </div>
+                        <div class="detail-card">
+                            <div class="detail-icon">✉️</div>
+                            <div class="detail-info">
+                                <span class="detail-key">Email</span>
+                                <span class="detail-val">geleulj@gmail.com</span>
+                            </div>
+                        </div>
+                        <div class="detail-card">
+                            <div class="detail-icon">🌐</div>
+                            <div class="detail-info">
+                                <span class="detail-key">Languages</span>
+                                <span class="detail-val">FR · AR · EN · ES</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══ EDUCATION ═══ -->
+        <section id="education">
+            <div class="container">
+                <div class="section-label fade-up"><span class="label-dot"></span> Education</div>
+                <div class="edu-timeline">
+                    <div class="edu-item fade-up">
+                        <div class="edu-year">2025–2029</div>
+                        <div class="edu-card">
+                            <h3>EADA Business School</h3>
+                            <p>Double Degree in Global BBA and Bachelor in AI for Business</p>
+                            <span class="edu-location">Barcelona, Spain</span>
+                        </div>
+                    </div>
+                    <div class="edu-item fade-up d1">
+                        <div class="edu-year">2025–2029</div>
+                        <div class="edu-card">
+                            <h3>SKEMA Business School</h3>
+                            <p>Global BBA, Business Administration, Management and Operations</p>
+                            <span class="edu-location">Barcelona, Spain</span>
+                        </div>
+                    </div>
+                    <div class="edu-item fade-up d2">
+                        <div class="edu-year">2024–2025</div>
+                        <div class="edu-card">
+                            <h3>Al Akhawayn University</h3>
+                            <p>Bachelor of Business Administration — GPA 3.5/4.0</p>
+                            <p class="edu-highlight">President of NextGen Business Club (Over 150 members)</p>
+                            <span class="edu-location">Ifrane, Morocco</span>
+                        </div>
+                    </div>
+                    <div class="edu-item fade-up d3">
+                        <div class="edu-year">2024–2025</div>
+                        <div class="edu-card">
+                            <h3>Founder Institute</h3>
+                            <p>Entrepreneur in Acceleration Program (STARTUP)</p>
+                            <p style="margin-top: 12px; font-size: 0.85rem;">Selected for the Founder Institute
+                                Pre-Acceleration Program, one of the world's most prestigious startup incubators.
+                                Refining the MarketFlow business model—a B2B platform revolutionizing the construction
+                                industry with AI-powered pricing, supplier trust rankings, and smart negotiation tools.
+                                Engaging with top-tier mentors, investors, and fellow entrepreneurs to accelerate growth
+                                and optimize the go-to-market strategy. Structuring the roadmap for fundraising, product
+                                development, and international expansion.</p>
+                            <span class="edu-location" style="display: block; margin-top: 12px;">Global</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══ VENTURES ═══ -->
+        <section id="ventures">
+            <div class="container">
+                <div class="section-label fade-up"><span class="label-dot"></span> Ventures</div>
+                <div class="ventures-grid">
+                    <div class="venture-card glass-card fade-up" data-tilt>
+                        <span class="intra-data">DAT.01 / APX</span>
+                        <div class="vc-header">
+                            <span class="vc-badge live">Live</span>
+                            <span class="vc-date">Jan 2026 – Present</span>
+                        </div>
+                        <h3>Apex Scholar</h3>
+                        <span class="vc-role">Founder & CTO</span>
+                        <p>Apex Scholar is an AI-driven study co-pilot that helps ambitious students structure,
+                            memorize, and master course material significantly faster. The platform combines intelligent
+                            flashcards, adaptive quizzes, an AI tutor, and learning analytics to optimize retention and
+                            track progress over time. It is built for elite and exam-focused learners, providing a
+                            centralized workspace to organize content, automate revision, and turn complex material into
+                            actionable study plans.</p>
+                        <div class="vc-tags">
+                            <span>AI/ML</span>
+                            <span>EdTech</span>
+                            <span>SaaS</span>
+                            <span>Product</span>
+                        </div>
+                    </div>
+                    <div class="venture-card glass-card fade-up d1" data-tilt>
+                        <span class="intra-data">DAT.02 / MKF</span>
+                        <div class="vc-header">
+                            <span class="vc-badge live">Live</span>
+                            <span class="vc-date">Oct 2024 – Present</span>
+                        </div>
+                        <h3>MarketFlow</h3>
+                        <span class="vc-role">Founder & CEO</span>
+                        <p>Transforming global B2B commerce, MarketFlow connects businesses with trusted suppliers
+                            worldwide. Our platform ensures transparent pricing, AI-driven market insights, and a
+                            performance-based ranking system for secure and efficient transactions. MarketFlow
+                            simplifies procurement, empowering businesses of all sizes to thrive.</p>
+                        <div class="vc-tags">
+                            <span>AI/ML</span>
+                            <span>B2B</span>
+                            <span>Supply Chain</span>
+                            <span>Platform</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══ EXPERIENCE ═══ -->
+        <section id="experience">
+            <div class="container">
+                <div class="section-label fade-up"><span class="label-dot"></span> Experience</div>
+                <div class="exp-list">
+                    <div class="exp-item fade-up">
+                        <div class="exp-left">
+                            <span class="exp-date">May 2024 – Aug 2025</span>
+                            <span class="exp-tag">6-Figure Scale</span>
+                        </div>
+                        <div class="exp-right">
+                            <h3>BioVida NL</h3>
+                            <span class="exp-role">Chief Growth & Strategy Officer</span>
+                            <p>Successfully grew the company by 90% within two months, helping BioVida surpass
+                                six-figure sales. Led the expansion into new markets and customer segments, driving
+                                significant business growth. Created and optimized highly effective ad campaigns across
+                                various platforms, resulting in increased brand visibility and customer engagement.
+                                Developed and implemented strategies that contributed to sustained growth and long-term
+                                success.</p>
+                        </div>
+                    </div>
+                    <div class="exp-item fade-up d1">
+                        <div class="exp-left">
+                            <span class="exp-date">Sept 2024 – Jul 2025</span>
+                            <span class="exp-tag">Leadership</span>
+                        </div>
+                        <div class="exp-right">
+                            <h3>NextGen Business Club – Al Akhawayn University</h3>
+                            <span class="exp-role">Founder President</span>
+                            <p>As the Founder & President of the NextGen AUI Business Club, I focus on developing key
+                                skills in e-commerce and logistics management, especially honing the art of negotiating
+                                with local suppliers. The club now has over 100 members, and its activities emphasize
+                                experiential learning through hands-on projects that engage members in developing
+                                entrepreneurial initiatives within the university. This approach fosters a deeper
+                                understanding of business fundamentals and practical problem-solving in real-world
+                                scenarios, equipping members with the knowledge and confidence to lead their ventures.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══ PROJECTS ═══ -->
+        <section id="projects">
+            <div class="container">
+                <div class="section-label fade-up"><span class="label-dot"></span> Projects</div>
+                <div class="exp-list">
+                    <div class="exp-item fade-up">
+                        <div class="exp-left">
+                            <span class="exp-date">May 2021 – Present</span>
+                            <span class="exp-tag">Agency</span>
+                        </div>
+                        <div class="exp-right">
+                            <h3>Visionary Agency</h3>
+                            <span class="exp-role">Founder & CTO</span>
+                            <p>Driving digital transformation and managing technical operations for clients. Focus on
+                                scalable solutions and innovative tech integrations to deliver robust business value.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="exp-item fade-up d1">
+                        <div class="exp-left">
+                            <span class="exp-date">Oct 2020 – Jan 2024</span>
+                            <span class="exp-tag">E-Commerce</span>
+                        </div>
+                        <div class="exp-right">
+                            <h3>Non Real Visionary (NRVClothing)</h3>
+                            <span class="exp-role">Founder & CEO</span>
+                            <p>Morocco-based streetwear brand built around self-expression and bold identity.
+                                As the founder of NRVClothing, I channeled a passion for authenticity and originality
+                                into a community-driven fashion label. NRV stood for non-conformity and creative
+                                vision — empowering a generation to define their own unique style.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══ LICENSES & CERTIFICATIONS ═══ -->
+        <section id="certifications">
+            <div class="container">
+                <div class="section-label fade-up"><span class="label-dot"></span> Licenses & Certifications</div>
+                <div class="exp-list">
+                    <div class="exp-item fade-up">
+                        <div class="exp-left">
+                            <span class="exp-date">Oct 2024</span>
+                            <span class="exp-tag">Udemy</span>
+                        </div>
+                        <div class="exp-right">
+                            <h3>Bubble.io Beginner to Pro: 15 Days to No-Code Mastery</h3>
+                            <span class="exp-role" style="font-family: var(--mono); font-size: 0.65rem;">Credential ID:
+                                UC-7f4df62b-2c35-4b56-9542-5b6d2399f5b2</span>
+                            <p style="margin-top: 8px;">Comprehensive training on no-code development and application
+                                building. NOCode & Bubble.io.</p>
+                        </div>
+                    </div>
+                    <div class="exp-item fade-up d1">
+                        <div class="exp-left">
+                            <span class="exp-date">Jul 2024</span>
+                            <span class="exp-tag">Emory University</span>
+                        </div>
+                        <div class="exp-right">
+                            <h3>Meaningful Marketing Insights</h3>
+                            <span class="exp-role" style="font-family: var(--mono); font-size: 0.65rem;">Credential ID:
+                                U8NYW5XCSZH9</span>
+                            <p style="margin-top: 8px;">Advanced marketing analytics and insight generation strategy.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══ KEY ACHIEVEMENTS ═══ -->
+        <section id="achievements">
+            <div class="container">
+                <div class="section-label fade-up"><span class="label-dot"></span> Key Achievements</div>
+                <div class="achievements-list">
+                    <div class="ach-item fade-up">
+                        <span class="ach-icon">🏆</span>
+                        <p>Winner of the <strong>Angel Award Investment Competition</strong> — Entrepreneurship Month,
+                            Al Akhawayn University</p>
+                    </div>
+                    <div class="ach-item fade-up d1">
+                        <span class="ach-icon">🚀</span>
+                        <p>Built and currently lead <strong>two active tech startups</strong> before the age of 20 —
+                            Apex Scholar & MarketFlow</p>
+                    </div>
+                    <div class="ach-item fade-up d2">
+                        <span class="ach-icon">📈</span>
+                        <p>Scaled BioVida and multiple e-commerce stores to <strong>six-figure revenue</strong> through
+                            structured acquisition strategy</p>
+                    </div>
+                    <div class="ach-item fade-up d3">
+                        <span class="ach-icon">🎯</span>
+                        <p>Selected for the <strong>Founder Institute</strong> Startup Acceleration Program</p>
+                    </div>
+                    <div class="ach-item fade-up d4">
+                        <span class="ach-icon">👥</span>
+                        <p>Founded and scaled a <strong>100+ member</strong> entrepreneurship club at university</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══ SKILLS ═══ -->
+        <section id="skills">
+            <div class="container">
+                <div class="section-label fade-up"><span class="label-dot"></span> Skills & Competencies</div>
+                <div class="skills-layout">
+                    <div class="skills-group fade-up">
+                        <h3>Strategy & Business</h3>
+                        <div class="skill-bars">
+                            <div class="skill-bar-item">
+                                <div class="sb-top"><span>Entrepreneurship & Strategy</span><span>95%</span></div>
+                                <div class="sb-track">
+                                    <div class="sb-fill" data-width="95"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar-item">
+                                <div class="sb-top"><span>Growth Marketing</span><span>90%</span></div>
+                                <div class="sb-track">
+                                    <div class="sb-fill" data-width="90"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar-item">
+                                <div class="sb-top"><span>Market Expansion</span><span>85%</span></div>
+                                <div class="sb-track">
+                                    <div class="sb-fill" data-width="85"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar-item">
+                                <div class="sb-top"><span>Negotiation</span><span>85%</span></div>
+                                <div class="sb-track">
+                                    <div class="sb-fill" data-width="85"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills-group fade-up d1">
+                        <h3>Technology & Product</h3>
+                        <div class="skill-bars">
+                            <div class="skill-bar-item">
+                                <div class="sb-top"><span>AI Product Development</span><span>90%</span></div>
+                                <div class="sb-track">
+                                    <div class="sb-fill" data-width="90"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar-item">
+                                <div class="sb-top"><span>Performance Advertising</span><span>88%</span></div>
+                                <div class="sb-track">
+                                    <div class="sb-fill" data-width="88"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar-item">
+                                <div class="sb-top"><span>Data-Driven Decision Making</span><span>85%</span></div>
+                                <div class="sb-track">
+                                    <div class="sb-fill" data-width="85"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar-item">
+                                <div class="sb-top"><span>Process Optimization</span><span>80%</span></div>
+                                <div class="sb-track">
+                                    <div class="sb-fill" data-width="80"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills-group fade-up d2">
+                        <h3>Languages</h3>
+                        <div class="skill-bars">
+                            <div class="skill-bar-item">
+                                <div class="sb-top"><span>French</span><span>Native</span></div>
+                                <div class="sb-track">
+                                    <div class="sb-fill" data-width="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar-item">
+                                <div class="sb-top"><span>Arabic</span><span>Native</span></div>
+                                <div class="sb-track">
+                                    <div class="sb-fill" data-width="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar-item">
+                                <div class="sb-top"><span>English</span><span>C2</span></div>
+                                <div class="sb-track">
+                                    <div class="sb-fill" data-width="92"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar-item">
+                                <div class="sb-top"><span>Spanish</span><span>A2</span></div>
+                                <div class="sb-track">
+                                    <div class="sb-fill" data-width="30"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══ CONTACT ═══ -->
+        <section id="contact">
+            <div class="container">
+                <div class="section-label fade-up"><span class="label-dot"></span> Let's Connect</div>
+                <div class="contact-block fade-up">
+                    <h2>Interested in working together?</h2>
+                    <p>I'm always open to discussing new ventures, collaborations, and opportunities. Feel free to reach
+                        out.</p>
+                    <div class="contact-links">
+                        <a href="mailto:geleulj@gmail.com" class="contact-card glass-card">
+                            <span class="contact-icon">✉</span>
+                            <span class="contact-type">Email</span>
+                            <span class="contact-value">geleulj@gmail.com</span>
+                            <span class="contact-arrow">→</span>
+                        </a>
+                        <a href="https://linkedin.com/in/ghali" target="_blank" class="contact-card glass-card">
+                            <span class="contact-icon">in</span>
+                            <span class="contact-type">LinkedIn</span>
+                            <span class="contact-value">linkedin.com/in/ghali</span>
+                            <span class="contact-arrow">→</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <span class="footer-copy">© 2026 Ghali El Eulj</span>
+                <div class="footer-links">
+                    <a href="mailto:geleulj@gmail.com">Email</a>
+                    <span class="footer-sep">·</span>
+                    <a href="https://linkedin.com/in/ghali" target="_blank">LinkedIn</a>
+                </div>
+                <span class="footer-location">Barcelona, Spain</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- BACK TO TOP -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
